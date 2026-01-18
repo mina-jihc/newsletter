@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-[#313347] flex justify-center items-center min-h-screen">
+    <div
+      class="container bg-white flex flex-col rounded-xl w-[450px] h-[800px] md:h-[450px] md:w-[800px] md:flex-row md:max-w-[900px] overflow-hidden"
+    >
+      <div class="left flex gap-6 flex-col pt-6 pl-10 flex-1 md:flex-1">
+        <h1 class="font-bold text-3xl text-slate-900 md:text-4xl">
+          Stay Updated!
+        </h1>
+        <p>Join 60,000+ product managers receiving monthly<br />updates on:</p>
+        <div class="ticks flex gap-3 flex-col">
+          <div class="tick-text flex gap-3 items-center">
+            <img src="assets/images/icon-success.svg" class="w-5 h-5" />
+            <p>Product discovery and building what matters</p>
+          </div>
+          <div class="tick-text flex gap-3 items-center">
+            <img src="assets/images/icon-success.svg" class="w-5 h-5" />
+            <p>Measuring to ensure updates are a success</p>
+          </div>
+          <div class="tick-text flex gap-3 items-center">
+            <img src="assets/images/icon-success.svg" class="w-5 h-5" />
+            <p>And much more!</p>
+          </div>
+          <b>Email address</b>
+          <input
+            type="text"
+            placeholder="email@company.com"
+            class="outline-1 p-3 w-88"
+          />
+          <button class="bg-slate-900 w-88 h-13 text-white">
+            <a href="second.html">Subscribe to monthly newsletter</a>
+          </button>
+        </div>
+      </div>
+      <div
+        class="right flex flex-1 object-cover pt-4 pb-4 pl-3
+         mr-2 md:ml-25
+         justify-center items-center
+         md:justify-center md:items-center"
+      >
+        <img
+          src="assets/images/illustration-sign-up-desktop.svg"
+          class="object-cover"
+        />
+      </div>
+    </div>
+  </body>
+</html>
